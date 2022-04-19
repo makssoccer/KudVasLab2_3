@@ -1,0 +1,172 @@
+.body
+{
+    position: relative;
+    min-height: 600px;
+}
+.AddBtn
+{
+    border-radius: 100%;
+    border: 0px;
+    color: #302795;
+    position: absolute;
+    width: 72px;
+    height: 72px;
+   /* left: 159px;
+    top: 257px;*/
+    bottom: 36px;
+    right: 36px;
+    font-size: 52px;
+    background: rgba(146, 136, 255, 0.22);
+}
+
+.AddBtn:hover
+{
+    box-shadow: 3px 9px 12px #6F68B6;
+}
+
+.removeItem
+{
+    position: absolute;
+    right: 18px;
+    top: 21px;
+    width: 33px;
+    height: 33px;
+    border: 2px solid #FAC6FF;
+    box-sizing: border-box;
+    border-radius: 100%;
+    font-size: 15pt;
+    text-align: center;
+    color: #FAC6FF;
+    cursor: default;
+}
+
+.removeItem span{
+    position: relative;
+    bottom: 30%;
+}
+
+.removeItem:hover{
+    background-color: #FAC6FF;
+    color: #9288FF;
+}
+
+.restoreItem{
+    position: absolute;
+    right: 18px;
+    top: 21px;
+    width: 33px;
+    height: 33px;
+    border: 3px solid #656565;
+    box-sizing: border-box;
+    border-radius: 100%;
+    font-size: 18pt;
+    font-weight: 900;
+    text-align: center;
+    color: #656565;
+    cursor: default;
+}
+
+.restoreItem span{
+    position: relative;
+    bottom: 30%;
+}
+
+.restoreItem:hover{
+    background-color: #656565;
+    color: #E5E5E5;
+}
+
+.delete{
+    right: 10%;
+}
+
+.itemTsk{
+    position: relative;
+    padding-left: 36px;
+    font-size: 39px;
+    line-height: 48px;
+    color: #5C5959;
+
+    width: 600px;
+    height: 75px;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.itemTsk:hover
+{
+    background-color: #9288FF;
+    box-shadow: 3px 12px 24px #544CA8;
+    color: #FAC6FF;
+}
+
+.itemTskCompl{
+    position: relative;
+    padding-left: 36px;
+    font-size: 39px;
+    line-height: 48px;
+    color: #9e9d9d;
+    
+    width: 600px;
+    height: 75px;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.taskTitle
+{
+    position: absolute;
+    left: 72px;
+    top: 12px;
+    padding-right: 114px;
+}
+
+.taskTitleDel{
+    position: absolute;
+    left: 72px;
+    top: 12px;
+    padding-right: 57px;
+    text-decoration: line-through;
+}
+
+.ElipseIn
+{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    margin-right: 12px;
+
+    width: 39px;
+    height: 39px;
+    border-radius: 100%;
+    border: 3px solid #5C5959;
+}
+.ElipseIn:hover
+{
+    background-color: #FAC6FF;
+    border: 1px solid #FAC6FF;
+}
+
+.ElipseInCompl{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    margin-right: 12px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    width: 39px;
+    height: 39px;
+    border-radius: 100%;
+    border: 3px solid #181071;
+    font-size: 51px;
+    font-weight: bold;
+    color: #181071;
+    background-color: #574dc54f;
+    cursor: default;
+}
+
+.ElipseInCompl:hover{
+    background-color: #322b86;
+    color: #bfbce7;
+    border: 1px solid #bfbce7;
+}
